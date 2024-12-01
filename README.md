@@ -1,4 +1,4 @@
-#RBAC-Authentication-System
+##RBAC-Authentication-System
 A simple and secure authentication system with Role-Based Access Control (RBAC) built using Node.js, Express, and MongoDB. This project demonstrates fundamental security concepts like Authentication, Authorization, and RBAC to control access to resources based on user roles. Features User Registration: New users can register with a username, password, and role. Secure Login: Users can log in to receive a JWT for accessing protected resources. Role-Based Access Control (RBAC): Admin users have full access to administrative resources. Regular users have restricted access based on their assigned roles. Middleware: Authentication: Verifies user identity using JSON Web Tokens (JWT). Authorization: Restricts access to routes based on user roles. Secure Password Storage: Passwords are hashed using bcrypt before being stored.
 
 Tech Stack Backend: Node.js with Express Database: MongoDB with Mongoose Authentication: JSON Web Tokens (JWT) Password Hashing: bcrypt.js Environment Management: dotenv API Endpoints Authentication Endpoints Register User
